@@ -10,7 +10,6 @@ import {
 } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
-//add to github to get help 
 
 
 const Header = () => {
