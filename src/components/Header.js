@@ -9,6 +9,7 @@ import {
     NavbarToggler
 } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
+import UserLoginForm from '../features/user/UserLoginForm';
 
 
 
@@ -48,7 +49,7 @@ const Header = () => {
                     </NavLink>
                 </NavItem>
             </Nav>
-            
+            <UserLoginForm />
         </Collapse>
         </Navbar>
         </div>
